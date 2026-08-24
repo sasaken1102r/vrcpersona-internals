@@ -4,9 +4,7 @@
 
 Parts of VRCPersona's internal implementation, published so they can be read.
 
-**This is the code for the next version, v1.0.0, which has not been released yet.**
-The currently released v0.7.6 and earlier do not have this encryption
-(see [Target version](#target-version)).
+**This is the code from VRCPersona v1.0.0.** Credential encryption was added in v1.0.0; v0.7.6 and earlier do not have it (see [Target version](#target-version)).
 
 ---
 
