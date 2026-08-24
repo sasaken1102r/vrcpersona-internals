@@ -57,7 +57,8 @@ On Windows, the files are located in:
 - `display_name` — display name
 - `thumbnail_url` — thumbnail image URL
 - `auth_token` — authentication token
-- `saved_at` / `last_login_at` — timestamps
+- `saved_at` — when it was saved
+- `last_login_at` — when it was last used to sign in
 
 The auth token for the currently signed-in account is also stored in the OS credential manager
 (see `save_auth_token` in `storage.rs`, entry name `vrchat_auth_token`).

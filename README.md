@@ -53,7 +53,8 @@ Windows では次のフォルダに置かれます。
 - `display_name` — 表示名
 - `thumbnail_url` — サムネイル画像のURL
 - `auth_token` — 認証トークン
-- `saved_at` / `last_login_at` — 保存日時・最終ログイン日時
+- `saved_at` — 保存日時
+- `last_login_at` — 最終ログイン日時
 
 現在ログイン中の認証トークンは、OS の資格情報マネージャーにも保存されます（`storage.rs` の `save_auth_token`、エントリ名 `vrchat_auth_token`）。
 
