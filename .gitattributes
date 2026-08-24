@@ -1,0 +1,3 @@
+# VRCPersona 本体のリポジトリとバイト単位で一致させるため、改行コードの自動変換を行わない。
+# Disable all line-ending conversion so these files stay byte-identical to the VRCPersona app repo.
+* -text
